@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+body{
+    background-color: #ffe6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+h1 {
+    color: hsl(240, 100%, 20%);
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+}
+
+h3{
+    color: darkmagenta;
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: rgb(102, 51, 0);
+    font-family: 'Rubik Wet Paint', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+
+#second-p{
+    color: rgb(12, 6, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2em;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#box-model{
+    background-color: aqua;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    /* margin: 20px; */
+
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* margin: 5px 10px 5px 10px; */
+
+    margin: 5px 10px;
+}
+
+.categories{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: red;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form .input-type{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.block{
+    float: left;
+    width: 33.333%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main__block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#side__bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('./images/large-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 200px
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+}
+
+.my-list li:first-child{
+    background: rebeccapurple;
+}
+
+.my-list li:last-child{
+    background: lightgreen;
+}
+
+.my-list li:nth-child(5){
+    background: lightblue;
+}
+
+.dynamic-list li:nth-child(even){
+    background: lightgreen;
+}
+
+.dynamic-list li:nth-child(odd){
+    background: lightblue;
+}
